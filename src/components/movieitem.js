@@ -17,9 +17,9 @@ class MovieItem extends Component {
     DeleteMovie(e) {
         //This makes the event cancelable - which is a risk when the page laods up.
         e.preventDefault();
-
-
+        
         console.log("Delete: " + this.props.movie._id)
+        //Sending http delete request
         axios.delete("http://localhost:4000/api/movies/" + this.props.movie._id)
             .then(()=>{
                 //Calls the ReloadData method from the /movies component and that continues up to the /read component
