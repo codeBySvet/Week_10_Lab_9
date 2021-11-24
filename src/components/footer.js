@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 
+// Class for the footer page of the navbar containing the content of the component
 class Footer extends Component
 {
     render(){
@@ -10,4 +11,5 @@ class Footer extends Component
         );
     }
 }
+//Marking for export
 export default Footer;

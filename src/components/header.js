@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+// Class for the header page of the navbar, containing the content of the component
 class Header extends Component {
     render(){
         return(
@@ -9,4 +10,5 @@ class Header extends Component {
         );
     }
 }
+//Marking for export
 export default Header;
